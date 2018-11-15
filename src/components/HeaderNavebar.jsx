@@ -29,7 +29,7 @@ class HeaderNaveBar extends Component {
             <tr>
               <th> Courses</th>
               <th>Search</th>
-              <th>Khan</th>
+              <th>Khan Academy</th>
               <th>Donate</th>
               <th>Login</th>
               <th>Sign up</th>
