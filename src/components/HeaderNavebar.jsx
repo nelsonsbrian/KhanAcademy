@@ -1,4 +1,8 @@
 import React, { Component } from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { render } from "react-dom";
+import { faHome } from "@fortawesome/free-solid-svg-icons";
+
 
 class HeaderNaveBar extends Component {
   state = {};
@@ -29,7 +33,8 @@ class HeaderNaveBar extends Component {
             <tr>
               <th> Courses</th>
               <th>Search</th>
-              <th>Khan Academy</th>
+              <FontAwesomeIcon icon={['fas', 'fa-leaf']} />
+              <th><i className="fas fa-leaf">Khan Academy</i></th>
               <th>Donate</th>
               <th>Login</th>
               <th>Sign up</th>
